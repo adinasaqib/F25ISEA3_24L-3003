@@ -9,7 +9,7 @@ using namespace std;
 
 // to read words from file
 void loadWords(vector<string>& words) {
-    ifstream file("hangman.txt");
+    ifstream file("hangman_24L-3003.txt");
     string word;
     while (file >> word) {
         words.push_back(word);
@@ -120,3 +120,4 @@ int main() {
 
     return 0;
 }
+
